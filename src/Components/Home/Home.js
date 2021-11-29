@@ -1,3 +1,4 @@
+import { Container } from "@mui/material";
 import React from "react";
 import Banner from "../Banner/Banner";
 import ContactForm from "../contactForm/ContactForm";
@@ -6,12 +7,12 @@ import Projects from "../Projects/Projects";
 
 const Home = () => {
   return (
-    <div>
+    <Container>
       {/* <Header></Header> */}
       <Banner></Banner>
       <Projects></Projects>
       <ContactForm></ContactForm>
-    </div>
+    </Container>
   );
 };
 

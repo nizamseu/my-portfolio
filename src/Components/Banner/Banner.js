@@ -58,8 +58,16 @@ const Banner = () => {
             agencies of Bangladesh and grow rapidly with increasing
             responsibilities
           </Typography>
-          <Box sx={{ my: 3 }}>
-            <Button sx={{ mx: 3, p: 0 }} variant="contained" color="error">
+          <Box
+            sx={{
+              my: 3,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: { xs: "column", sm: "row" },
+            }}
+          >
+            <Button sx={{ m: 2, p: 0 }} variant="contained" color="error">
               <Nav.Link
                 style={{
                   textDecoration: "none",
@@ -71,7 +79,7 @@ const Banner = () => {
               </Nav.Link>
             </Button>
             <Button
-              sx={{ p: 1 }}
+              sx={{ m: 1, p: 1 }}
               variant="contained"
               color="error"
               onClick={() => navigate("/contact")}
