@@ -1,0 +1,12 @@
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.brandName {
+  font-weight: 900;
+  color: crimson;
+}

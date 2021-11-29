@@ -2,11 +2,15 @@ import Button from "@restart/ui/esm/Button";
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import resume from "../../data/Nizam Uddin React Frontend Developer.pdf";
+import { Link } from "react-router-dom";
+import "./header.css";
 const Header = () => {
   return (
     <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#">NUB</Navbar.Brand>
+      <Container fluid className="menu">
+        <Link className="brandName" to="/">
+          NUB
+        </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -14,10 +18,10 @@ const Header = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
+            <Link to="/home">Home</Link>
+            <Link to="/about">About</Link>
 
-            <Nav.Link href={resume}>resume</Nav.Link>
+            <Nav.Link href={resume}>Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

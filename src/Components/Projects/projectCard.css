@@ -1,0 +1,16 @@
+.projectCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projectCard p {
+  padding: 5px 10px;
+  color: white;
+  background-color: #4b5769;
+  margin: 3px;
+  border-radius: 5px;
+  font-size: smaller;
+}
+.MuiSvgIcon-root {
+  margin: 10px 2px;
+  color: rgb(7, 248, 248);
+}
