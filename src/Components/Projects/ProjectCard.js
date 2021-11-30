@@ -1,11 +1,20 @@
 import { Grid, Container, Typography, IconButton } from "@mui/material";
 import { display, typography } from "@mui/system";
-import React from "react";
+import React, { useEffect } from "react";
 import "./projectCard.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const ProjectCard = ({ item }) => {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 3000,
+      easing: "ease",
+    });
+  }, []);
   const {
     technology,
     pic,
@@ -15,6 +24,7 @@ const ProjectCard = ({ item }) => {
     frontend,
     title,
     details,
+    id,
   } = item;
 
   return (
@@ -23,11 +33,21 @@ const ProjectCard = ({ item }) => {
         display: { md: "flex" },
       }}
     >
-      <Grid item xs={12} sm={12} md={7} sx={{ margin: "10px 0" }}>
-        <img width="100%" height="90%" src={pic} alt="" />
+      <Grid
+        data-aos="fade-up"
+        item
+        xs={12}
+        sm={12}
+        md={7}
+        sx={{ margin: "10px 0" }}
+      >
+        <Link to={`/details/${id}`}>
+          <img width="100%" height="90%" src={pic} alt="" />
+        </Link>
       </Grid>
 
       <Grid
+        data-aos="fade-down"
         sx={{
           backgroundColor: "#172A45",
           padding: "15px",
