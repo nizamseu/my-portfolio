@@ -1,5 +1,4 @@
 import { Grid, Container, Typography, IconButton } from "@mui/material";
-import { display, typography } from "@mui/system";
 import React, { useEffect } from "react";
 import "./projectCard.css";
 import GitHubIcon from "@mui/icons-material/GitHub";

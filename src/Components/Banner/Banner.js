@@ -47,10 +47,10 @@ const Banner = () => {
             wrapper="p"
             className="typical"
           />
-          <Typography component="div" sx={{ display: "flex", my: 3 }}>
+          {/* <Typography component="div" sx={{ display: "flex", my: 3 }}>
             <li style={{ marginRight: "20px" }}>React Developer</li>
             <li style={{ marginLeft: "20px" }}>Programmer</li>
-          </Typography>
+          </Typography> */}
           <Typography component="p" sx={{ textAlign: "justify" }}>
             A self-motivated and enthusiastic web developer with a deep interest
             in JavaScript. To work in the Software industry with modern web
