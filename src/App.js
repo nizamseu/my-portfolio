@@ -5,6 +5,7 @@ import About from "./Components/About/About";
 import ContactForm from "./Components/contactForm/ContactForm";
 import Header from "./Components/Header/Header";
 import ProjectDetails from "./Components/Projects/ProjectDetails";
+import Blog from "./Components/Blog/Blog";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/details/:id" element={<ProjectDetails />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<ContactForm />} />
         </Routes>
       </Router>

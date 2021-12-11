@@ -17,17 +17,17 @@
       "Material-UI",
       "Firebase"
     ],
-    "img1": "https://i.ibb.co/7J5MpR4/shoe.png",
-    "img2": "https://i.ibb.co/7J5MpR4/shoe.png",
-    "img3": "https://i.ibb.co/7J5MpR4/shoe.png"
+    "img1": "https://i.ibb.co/Tg86X6j/p3.png",
+    "img2": "https://i.ibb.co/VWFVpQw/p2.png",
+    "img3": "https://i.ibb.co/hDsb8rh/p1.png"
   },
   {
     "id": 1002,
     "title": "Doctor Portal",
     "author": "Nizam Uddin",
-    "liveSite": "https://shoelace-4c4a8.web.app/",
-    "frontend": "https://github.com/nizamseu/shoeLaceFrontend",
-    "backend": "https://github.com/nizamseu/ShoeLaceBackend",
+    "liveSite": "https://doctors-app-85080.web.app/",
+    "frontend": "https://github.com/nizamseu/doctors-app",
+    "backend": "https://github.com/nizamseu/doctors-app-backend",
     "pic": "https://i.ibb.co/jDYC8Jg/0-home-page.png",
     "details": "A Single page web app with dashboard. Like ecommerce site. Two types of user. The normal user will be able to add new products, give reviews and manage all his products in the dashboard. Admin will be able to manage all users and products.",
     "technology": [
@@ -47,9 +47,9 @@
     "id": 1003,
     "title": "Creative Agency",
     "author": "Nizam Uddin",
-    "liveSite": "https://shoelace-4c4a8.web.app/",
-    "frontend": "https://github.com/nizamseu/shoeLaceFrontend",
-    "backend": "https://github.com/nizamseu/ShoeLaceBackend",
+    "liveSite": "https://creative-agency-43562.web.app/",
+    "frontend": "https://github.com/nizamseu/creative-agency",
+    "backend": "https://github.com/nizamseu/creative-agency-backend",
     "pic": "https://i.ibb.co/SxvCQgj/1-Landing-page.png",
     "details": "A Single page web app with dashboard. Like ecommerce site. Two types of user. The normal user will be able to add new products, give reviews and manage all his products in the dashboard. Admin will be able to manage all users and products.",
     "technology": [
@@ -69,9 +69,9 @@
     "id": 1004,
     "title": "Volunteer Service",
     "author": "Nizam Uddin",
-    "liveSite": "https://shoelace-4c4a8.web.app/",
-    "frontend": "https://github.com/nizamseu/shoeLaceFrontend",
-    "backend": "https://github.com/nizamseu/ShoeLaceBackend",
+    "liveSite": "https://volunteer-network-8b8c8.web.app/",
+    "frontend": "https://github.com/nizamseu/volunteer-frontend",
+    "backend": "https://github.com/nizamseu/volunteer-backend",
     "pic": "https://i.ibb.co/94wpkfv/1-Landing-page.png",
     "details": "A Single page web app with dashboard. Like ecommerce site. Two types of user. The normal user will be able to add new products, give reviews and manage all his products in the dashboard. Admin will be able to manage all users and products.",
     "technology": [
