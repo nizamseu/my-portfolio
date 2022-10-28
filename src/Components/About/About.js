@@ -60,33 +60,36 @@ const About = () => {
           <Box sx={{ my: 3 }}>
             <h1 className="text-info my-3">Skills</h1>
             <hr />
-            <Box>
+            <Box sx={{ my: 3 }}>
               <h3>Expertise</h3>
               <Typography className="about">
                 <p>JavaScript</p>
                 <p>ES6</p>
-                <p>React.js</p>
+                <p>ReactJS</p>
+                <p>NextJS</p>
                 <p>REST API</p>
-                <p>React Bootstrap</p>
-                <p>Material UI</p>
+                <p>Tailwind CSS</p>
                 <p>HTML</p>
                 <p>CSS</p>
+                <p>Socket.io</p>
+                <p>PWA</p>
                 <p>Firebase Authentication</p>
               </Typography>
             </Box>
-            <Box>
+            <Box sx={{ my: 3 }}>
               <h3>Comfortable</h3>
               <Typography className="about">
                 <p>Node.js</p>
                 <p>Express.js</p>
                 <p>MongoDB</p>
                 <p>JSON</p>
-                <p>Tailwind CSS</p>
                 <p>SASS</p>
+                <p>React Bootstrap</p>
+                <p>Material UI</p>
               </Typography>
             </Box>
 
-            <Box>
+            <Box sx={{ my: 3 }}>
               <h3>Familiar</h3>
               <Typography className="about">
                 <p>Redux.js</p>

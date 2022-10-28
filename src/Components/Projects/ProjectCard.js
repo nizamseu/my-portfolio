@@ -6,6 +6,7 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 const ProjectCard = ({ item }) => {
   useEffect(() => {
     AOS.init({
@@ -25,6 +26,22 @@ const ProjectCard = ({ item }) => {
     details,
     id,
   } = item;
+
+  const getData = async () => {
+    try {
+      undefined.find();
+      const userError = new Error("User Undefine");
+      throw userError;
+    } catch (error) {
+      handleError(error);
+    }
+  };
+  getData();
+
+  const handleError = (error) => {
+    const { name, message, stack } = error;
+    console.log(name, message, stack);
+  };
 
   return (
     <Container

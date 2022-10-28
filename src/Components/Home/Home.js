@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import ContactForm from "../contactForm/ContactForm";
 import Header from "../Header/Header";
 import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       {/* <Header></Header> */}
       <Banner></Banner>
       <Projects></Projects>
+      <Skills />
       <ContactForm></ContactForm>
     </Container>
   );

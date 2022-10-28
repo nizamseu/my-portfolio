@@ -6,7 +6,7 @@ const Projects = () => {
   console.log(data);
   return (
     <div>
-      <h1 style={{ margin: "50px" }}>Some Of My Project</h1>
+      <h1 style={{ margin: "50px" }}>Personal Project</h1>
 
       <Grid container spacing={2}>
         {data && data.map((item) => <ProjectCard item={item}></ProjectCard>)}

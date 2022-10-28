@@ -1,7 +1,7 @@
 import { Grid, Box, Container, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import React from "react";
-import nizam from "../../data/nizam.png";
+import nizam from "../../data/nizam.jpg";
 import Typical from "react-typical";
 import "./Banner.css";
 import { useNavigate } from "react-router-dom";
@@ -18,13 +18,15 @@ const Banner = () => {
   const navigate = useNavigate();
   const steps = [
     "Nizam Uddin 👋",
-    2000,
-    "React Developer",
-    2000,
-    "Web Developer👌",
-    2000,
-    "Frontend Developer",
     3000,
+    "ReactJS Developer",
+    3000,
+    "NextJS Developer",
+    3000,
+    "Web Developer👌",
+    3000,
+    "Frontend Developer",
+    4000,
   ];
   return (
     <Container>
@@ -90,7 +92,21 @@ const Banner = () => {
         </Grid>
 
         <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-          <img width="100%" style={{ padding: "10px" }} src={nizam} alt="" />
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginTop: "100px",
+            }}
+          >
+            <img
+              width="50%"
+              style={{ borderRadius: "50%" }}
+              src={nizam}
+              alt=""
+            />
+          </Box>
         </Grid>
       </Grid>
     </Container>

@@ -1,9 +1,9 @@
-.contract {
+/* .contract {
   background-color: #0a192f;
   display: grid;
   place-items: center;
   height: 100vh;
-}
+} */
 .contactBody {
   /* display: flex;
   height: 90vh;
@@ -12,19 +12,19 @@
   background-color: #ededed;
   box-shadow: -10px 4px 20px -6px rgba(0, 0, 0, 0.75); */
 }
-.contactForm {
+/* .contactForm {
   background-color: #172a45;
   padding: 15px;
-}
-.contactForm input,
+} */
+/* .contactForm input,
 button {
   width: 350px;
   height: 50px;
   margin: 15px 10px;
   border-radius: 5px;
   padding: 10px;
-}
-.contactForm textarea {
+} */
+/* .contactForm textarea {
   height: 200px;
   width: 350px;
   margin: 15px 10px;
@@ -34,4 +34,28 @@ button {
 .contactForm button {
   background-color: tomato;
   border: none;
+} */
+
+.contact {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.childContact {
+  border: 1px solid #12294b;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+}
+.title {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.sub-title {
+  color: gray;
+  font-size: 18px;
 }
