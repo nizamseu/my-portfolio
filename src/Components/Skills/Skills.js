@@ -73,7 +73,7 @@ const Skills = () => {
         <h2 className="text-center primary-color my-5">MY SKILLS</h2>
         <div className="d-flex flex-wrap justify-content-center">
           {technology.map((logo) => (
-            <div key={logo.name} className="p-3 m-lg-5 m-3 logo">
+            <div key={logo.name} className="p-3 m-lg-5 m-3 logoo">
               <img
                 width="80px"
                 className="tec-icon"

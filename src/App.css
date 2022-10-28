@@ -2,3 +2,13 @@
   background-color: #0a192f;
   color: white;
 }
+/* .logoo {
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 10px;
+} */
+.tec-icon {
+  transition: transform 3s ease-in-out;
+}
+.tec-icon:hover {
+  transform: rotate(360deg);
+}
