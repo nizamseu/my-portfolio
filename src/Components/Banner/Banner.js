@@ -75,7 +75,10 @@ const Banner = () => {
                   textDecoration: "none",
                   color: "white",
                 }}
-                href={resume}
+                target="_blank"
+                href={
+                  "https://drive.google.com/file/d/1-fMfsqR89PrXKEhK9GM-WiPTdxraisnc/view?usp=sharing"
+                }
               >
                 Download Resume
               </Nav.Link>

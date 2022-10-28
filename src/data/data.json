@@ -1,6 +1,29 @@
 [
   {
     "id": 1001,
+    "title": "Edu Buddies",
+    "author": "Nizam Uddin",
+    "liveSite": "https://edu-buddies.netlify.app/",
+    "frontend": "https://github.com/Assignments-beginner/edubuddies-client-site",
+    "backend": "https://github.com/nizamseu/edubuddies-Backend",
+    "pic": "https://i.ibb.co/CzDjNPf/11.png",
+    "details": "Its a website project for students who want to learn new technology online. They can select from multiple courses and buy their desired course.It has a different dashboard for students, instructor and admin. In the admin dashboard admin can control the whole site. In the instructor dashboard, instructors can manage course videos. And students can manage their full info etc",
+    "technology": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "tailwind css",
+      "Firebase",
+      "Azure",
+      "sslcommerz"
+    ],
+    "img1": "https://i.ibb.co/XZyyRgb/2222.png",
+    "img2": "https://i.ibb.co/XLKHRg3/3333.png",
+    "img3": "https://i.ibb.co/NZ11Zgd/4444.png"
+  },
+  {
+    "id": 1002,
     "title": "ShoeLace",
     "author": "Nizam Uddin",
     "liveSite": "https://shoelace-4c4a8.web.app/",
@@ -22,7 +45,7 @@
     "img3": "https://i.ibb.co/hDsb8rh/p1.png"
   },
   {
-    "id": 1002,
+    "id": 1003,
     "title": "Doctor Portal",
     "author": "Nizam Uddin",
     "liveSite": "https://doctors-app-85080.web.app/",
@@ -44,7 +67,7 @@
     "img3": "https://i.ibb.co/PGsDVnv/4-dashboard.png"
   },
   {
-    "id": 1003,
+    "id": 1004,
     "title": "Creative Agency",
     "author": "Nizam Uddin",
     "liveSite": "https://creative-agency-43562.web.app/",
@@ -66,7 +89,7 @@
     "img3": "https://i.ibb.co/CKVLDxZ/4-Customar-status.png"
   },
   {
-    "id": 1004,
+    "id": 1005,
     "title": "Volunteer Service",
     "author": "Nizam Uddin",
     "liveSite": "https://volunteer-network-8b8c8.web.app/",

@@ -9,7 +9,7 @@ const Header = () => {
     <Navbar bg="light" expand="lg">
       <Container fluid className="menu">
         <Link className="brandName" to="/">
-          NUB
+          Nizam Uddin
         </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -22,7 +22,14 @@ const Header = () => {
             <Link to={"/about"}>About</Link>
             <Link to={"/blog"}>Blog</Link>
 
-            <Nav.Link href={resume}>Resume</Nav.Link>
+            <Nav.Link
+              target="_blank"
+              href={
+                "https://drive.google.com/file/d/1-fMfsqR89PrXKEhK9GM-WiPTdxraisnc/view?usp=sharing"
+              }
+            >
+              Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
